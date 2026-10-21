@@ -8,11 +8,21 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.0/css/all.min.css">
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
+    <!-- // Navigation -->
+    <nav>
+        <a href="#about">About</a>
+        <a href="#work">Work Experience</a>
+        <a href="#education">Education</a>
+        <a href="#contact">Contact</a>
+        <a href="resume.pdf" download>Resume PDF</a>
+    </nav>
+
     <!-- // Intro -->
-    <header>
+    <header id="about">
         <div class="content-wrap">
             <img class="profile-img column-narrow" src="images/profile.jpeg" alt="Jose Rincon">
             <div class="column-wide">
@@ -25,7 +35,7 @@
 
     <main>
         <!-- // Work Experience -->
-        <section class="work-experience">
+        <section class="work-experience" id="work">
             <div class="content-wrap">
                 <h2>Work Experience</h2>
 
@@ -46,7 +56,7 @@
         </section>
 
         <!-- // Education -->
-        <section class="education">
+        <section class="education" id="education">
             <div class="content-wrap">
                 <h2>Education</h2>
 
@@ -59,13 +69,13 @@
     </main>
 
     <!-- // Footer & contact info -->
-    <footer>
+    <footer id="contact">
         <div class="content-wrap">
             <h2>Let's Keep in Touch!</h2>
 
             <div class="contact-info">
-                <a href="mailto:jose.rincon.947@my.csun.edu">jose.rincon.947@my.csun.edu</a>
-                <a href="https://github.com/Josejr04" target="_blank">GitHub</a>
+                <a href="mailto:jose.rincon.947@my.csun.edu"><i class="fa-solid fa-envelope"></i> jose.rincon.947@my.csun.edu</a>
+                <a href="https://github.com/Josejr04" target="_blank"><i class="fa-brands fa-github"></i> GitHub</a>
             </div>
 
             <p>Copyright 2026 by Jose Rincon</p>
