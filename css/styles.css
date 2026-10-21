@@ -1,0 +1,109 @@
+/* Color Palette
+# - #1F3A4D  navy (header, text)
+# - #F5F2EB  warm cream (work experience)
+# - #E4EAEE  light blue-gray (education)
+# - #2A7F78  deep teal (footer)
+*/
+
+/* Global styles
+------------------------------------*/
+/* Box model fix */
+html {
+    box-sizing: border-box;
+    background-color: #2A7F78;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    margin: 0;
+    color: #1F3A4D;
+    line-height: 1.6;
+}
+
+h1, h2, h3 {
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+}
+
+h1 { font-size: 3.5rem; }
+h2 { font-size: 2.25rem; margin-top: 0; }
+h3 { font-size: 1.4rem; }
+
+.content-wrap {
+    max-width: 950px;
+    margin: 0 auto;
+    padding: 50px;
+    overflow: hidden;
+}
+
+.column-narrow {
+    width: 30%;
+    float: left;
+    padding-right: 3%;
+    min-height: 175px;
+}
+
+.column-wide {
+    width: 70%;
+    float: left;
+    min-height: 225px;
+}
+
+
+/* Header & Footer
+------------------------------------*/
+header {
+    background-color: #1F3A4D;
+    color: #ffffff;
+}
+
+header h1, header h2 {
+    margin: 0;
+}
+
+.profile-img {
+    width: 27%;
+    margin-right: 3%;
+    padding-right: 0;
+    min-height: 0;
+    border-radius: 50%;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+}
+
+footer {
+    background-color: #2A7F78;
+    color: #ffffff;
+    text-align: center;
+}
+
+.contact-info a {
+    color: #ffffff;
+    font-weight: 700;
+    padding: 10px;
+    display: inline-block;
+}
+
+
+/* Work Experience
+------------------------------------*/
+.work-experience {
+    background-color: #F5F2EB;
+}
+
+.work-experience h3,
+.work-experience p {
+    margin-top: 0;
+}
+
+
+/* Education
+------------------------------------*/
+.education {
+    background-color: #E4EAEE;
+}
